@@ -1,3 +1,34 @@
-h1 background-color: lightblue;
-    text-align: center;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+            
 }
+
+    header {
+        display: flex; /* transforma o header em um contêiner flexível */
+        flex-direction: column; /* empilha os elementos verticalmente */
+        align-items: center; /* centraliza os elementos horizontalmente */
+        background-color: rgb(0, 0, 0);
+        background-image: url('fotos/background.png');
+        
+}
+
+    img {
+        width: 150px;
+        height: auto;
+        margin: 11px; 
+        padding-left: 11px;
+}
+
+    h1 {
+        margin: 0;
+        padding: 0;
+
+}
+    body {
+        color: rgb(236, 236, 236);
+        background-image: url('fotos/background.png');
+}
+
